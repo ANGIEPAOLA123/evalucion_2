@@ -1,0 +1,1635 @@
+@font-face {
+    font-family: 'MyFont_1';
+    src: url('RobotoSlab-VariableFont_wght.ttf') format('truetype'); 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #f1e8e3, #cdb1a1);
+}
+
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: 100%;
+}
+
+
+.contenedor {
+    width: 80%;
+    height: auto;
+    background-color: #3a3a3a;
+    border-radius: 0px 0px 70px 70px;
+    box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.9); 
+    overflow: hidden;
+    padding: 20px;
+    margin-left: 90px;
+    position: relative; 
+}
+
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    text-align: center;
+    color: white;
+}
+
+.header__title {
+    margin: 0;
+    color: #b68e76;
+    font-size: 70px;
+    margin-top: 60px;
+    font-family: 'MyFont_1';
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.menu__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-right: 100px;
+}
+
+.menu__item {
+    display: inline-block;
+}
+
+.menu__link {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.additional-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.social-icons__link {
+    text-decoration: none;
+}
+
+.social-icons__icon {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.quality-and-taste__text {
+    margin: 0;
+    color: white;
+}
+
+.social-icons {
+    position: relative;
+    margin-right: 10px;
+}
+
+.social-icons::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+    width: 2px;
+    height: 10px; 
+    background-color: white;
+}
+
+/* Estilos de la primera sección */
+
+.seccion_uno{
+    height: 100vh;
+    width: 100%;
+}
+
+.contenedor-seccion {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: url('imagen_fondo1.png') center/cover;
+}
+
+
+.seccion__contenido {
+    text-align:start; 
+}
+
+.seccion__texto-boton {
+    margin-bottom: 20px; 
+    margin-right: 20px;
+}
+
+.seccion__texto {
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-family: 'MyFont_1';
+}
+
+.seccion__boton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #b68e76;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    width: 250px;
+    cursor: pointer !important; 
+    font-weight: bold;
+    font-family: 'MyFont_1';
+}
+
+
+/* Estilos de la segunda sección */
+
+.seccion_dos{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    margin-top: 40px;
+    display: flex;
+    border-radius: 150px;
+    width: 80%;
+    height: auto;
+    background-color: #ffffff;
+    box-shadow: -10px 0px 20px rgba(0, 0, 0, 0.2);
+
+}
+
+
+.card__imagen {
+    width: 50%;
+    height: 100%;
+    box-shadow: -10px 0px 20px rgba(0, 0, 0, 0.2);
+    margin-left: 100px;
+}
+
+.card__contenido {
+    margin-left: 5%;
+    padding: 20px;
+}
+
+.card__titulo {
+    font-size: 24px;
+    margin-top: 90px;
+    font-family: 'MyFont_1';
+    font-size: 35px;
+}
+
+.card__texto_1 {
+    margin: 10px 0;
+    line-height: 1.5;
+    font-family: 'MyFont_1';
+    font-size: 28px;
+}
+
+.card__texto_2 {
+    margin: 10px 0;
+    margin-top: 50px;
+    line-height: 1.5;
+    font-family: 'MyFont_1';
+    font-size: 28px;
+    color: #b68e76;
+}
+
+.card__texto {
+    margin: 10px 0;
+    line-height: 1.5;
+    font-family: 'MyFont_1';
+    font-size: 12px;
+
+}
+
+.card__informacion-adicional {
+    margin-top: 40px;
+    font-family: 'MyFont_1';
+    font-size: 12px;
+}
+
+.seccion__boton_1 {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #b68e76;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    width: 150px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'MyFont_1';
+}
+
+.texto-debajo-container {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    margin-top: 20px; 
+}
+
+.texto-debajo {
+    display: flex;
+    font-family: 'MyFont_1';
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+}
+
+.texto-debajo::before {
+    content: '';
+    width: 2px; 
+    height: 20px; 
+    background-color: black; 
+    margin-right: 50px; 
+}
+
+/* Estilos de la tres sección */
+
+.seccion_tres {
+    display: flex;
+    background: url('fondo-3.png')center/cover; 
+    height: 130vh;
+    width: 100%;
+}
+
+
+.contenido-seccion-3 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: black;
+    font-family: 'MyFont_1'; 
+    height: auto;
+    width: 100%;
+    
+}
+
+.titulo-seccion-3 {
+    font-size: 50px;
+}
+
+.texto-seccion-3 {
+    font-size: 25px;
+    margin-bottom: 20px; 
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario input {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 289px;
+    border: none;
+    border-radius: 100px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    font-family: 'MyFont_1';
+}
+
+.formulario button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #b68e76;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    width: 300px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'MyFont_1';
+}
+
+.texto-despues-formulario {
+    margin-left: 100px;
+    font-size: 12px;
+    margin-top: 20px; 
+}
+
+
+
+
+/* Estilos de la cuarta sección */
+
+.seccion-cuatro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* O ajusta la altura según tus necesidades */
+}
+
+.contenedor-seccion-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: 'MyFont_1';
+    margin-top: 5%;
+    width: 65%;
+    height: auto;
+}
+
+.card_1 {
+    display: flex;
+    border-radius: 180px;
+    width: 100%;
+    height: auto;
+    background-color: #3a3a3a;
+}
+
+.card__contenido_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Ajusta el relleno según tus necesidades */
+}
+
+.card__titulo_3 {
+    font-size: 60px;
+    margin: 0px;
+}
+
+.card__texto_7,
+.card__texto_4,
+.card__texto_6 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center; /* Alineado al centro */
+}
+
+.card__texto_5 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%; /* Cambiado a 100% para ocupar todo el ancho del contenedor */
+    background-color: #b68e76;
+    box-sizing: border-box;
+}
+
+.texto-debajo-container_1 {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: 20px;
+    color: black;
+}
+
+.texto-debajo-card {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    font-family: 'MyFont_1';
+    font-size: 16px;
+    text-align: start;
+    margin-left: 0; /* Ajusta el margen según tus necesidades */
+}
+/* Estilos de la quinta sección */
+
+.seccion-quinta {
+    display: flex;
+    flex-direction: row;
+    background: url('fondo-5.png') center/cover; 
+    color: black;
+    height: auto;
+    width: 100%;
+    font-family: 'MyFont_1';
+}
+
+.contenedor-seccion-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    height: auto;
+}
+
+.texto-fondo {
+    text-align: start;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.titulo-fondo {
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.texto--1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.texto--2 {
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;  
+    margin-left: 600px;
+}
+
+.boton-1,
+.boton-2 {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #b68e76;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    width: 170px;
+    cursor: pointer;
+    margin: 10px 0;
+    font-weight: bold;
+    font-family: 'MyFont_1';
+}
+
+/* Estilos de la sexta sección */
+
+.seccion-sexta  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto; 
+    width: 100%;
+    font-family: 'MyFont_1';
+    margin-top: 5%;
+}
+
+
+.contenedor-seccion_5 {
+    display: flex;
+    width: 70%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__imagen_2 {
+    width: auto;
+    
+}
+
+.card_2 {
+    display: flex;
+    border-radius: 150px;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    position: relative;
+    box-shadow: -10px 0px 20px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.card__contenido_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    width: 50%;
+    margin-left: 100px;
+}
+
+.card__tituloo {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.card__texto__1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.card__textoo {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.seccion__boton_1 {
+    padding: 10px 20px;
+    font-size: 25px;
+    background-color: #b68e76;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    width: 300px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.card__informacion-adicional-1 {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.texto-debajo-container_2 {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    margin-top: 20px; 
+}
+
+.texto-debajo-2 {
+    display: flex;
+    font-family: 'MyFont_1';
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+}
+
+.texto-debajo-2::before {
+    content: '';
+    position: absolute;
+    left: -70px; 
+    top: 0;
+    width: 2px; 
+    height: 100%; 
+    background-color: black;
+}
+
+
+
+
+/* seccion numero 7 */
+
+.seccion-siete{
+display: flex;
+width: 100%;
+height: auto;
+background-color: aqua;
+
+}
+
+.contenedor-seccion_7 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+
+.card_7 {
+    display: flex;
+    border-radius: 150px;
+    width: 50%;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 0px 170px 170px 0px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border: none;
+}
+
+.contenido_siete {
+    width: 50%;
+    margin-left: 180px;
+}
+
+
+
+.seccion__boton_3 {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #b68e76;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    width: auto;
+    height: 40px;
+    cursor: pointer;
+    margin: 10px 0;
+    font-weight: bold;
+    font-family: 'MyFont_1';
+}
+
+.contenedor-botones {
+    display: flex;
+    width: auto;
+    align-items: center; 
+}
+
+.seccion__boton_3,
+.boton-producto {
+    margin-right: 10px; 
+}
+
+.boton-producto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.boton-producto button {
+    background-color: #b68e76;
+    color: white;
+    border: none;
+    padding:  5px 10px;;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 5px;
+    width: auto;
+    height: 40px;
+}
+
+.quitar button{
+    width: 30px;
+    border-radius: 10px 0 0 10px;
+}
+
+.anadir{
+    border-radius: 0 10px 10px 0;
+}
+
+.boton-producto .cantidad {
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.imagen{
+    width: auto;
+}
+
+
+
+
+.seccion--6 {
+    margin-top: -700px;
+    margin-left: 1300px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    font-family: 'MyFont_1';
+}
+
+.imagenes-y-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+.imagen-5 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; 
+}
+
+.imagen-5 img {
+    max-width: 100%; 
+}
+
+.texto-y-botones {
+    margin-left: 10px; 
+}
+
+.texto-y-botones p {
+    margin-bottom: 5px; 
+    text-decoration: underline;
+}
+
+.card__titulo-4 {
+    font-size: 60px; 
+}
+
+.card__texto_4{
+    font-size: 20px; 
+    margin-left: 12px;
+}
+
+.seccion__boton_4 {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3a3a3a;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    width: 170px;
+    height: 40px;
+    cursor: pointer;
+    margin: 10px 0;
+    font-weight: bold;
+    font-family: 'MyFont_1';
+}
+
+
+
+/* Estilos de la octava sección */
+
+
+.seccion-7 {
+    position: relative;
+    text-align: center;
+    margin-top: 350px;
+    width: 100%;
+    height: 1000px;
+}
+
+.seccion-7::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('Design-8.png');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: top right;
+    z-index: -1;
+}
+
+.contenedor-seccion_7 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor-seccion_7 h2 {
+    font-size: 150px;
+    margin-bottom: 10px;
+    font-family: 'MyFont_1';
+}
+
+.contenedor-seccion_7 p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 60px;
+}
+
+.contenedor-seccion_7  .parrafo-1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.contenedor-seccion_7 button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3a3a3a;
+    border-radius: 100px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    margin-bottom: 10px;
+    margin-top: 60px;
+}
+
+/* Estilos del footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    font-family: 'MyFont_1';
+    width: 80%;
+    margin: 0 auto; /* Centrar horizontalmente */
+    height: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+}
+
+.h22 {
+    text-align: center;
+    font-size: 80px;
+    color: #b68e76;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.subtitulo-container {
+    align-items: center;
+    text-align: center;
+}
+
+.subtitulo {
+    text-align: center;
+    font-size: 20px;
+    margin-top: -50px;
+    position: relative;
+}
+
+.subtitulo::before {
+    content: '';
+    position: absolute;
+    left: 50%; /* Ajustado para centrar */
+    transform: translateX(-50%); /* Centrar el elemento generado */
+    top: 0;
+    width: 2px; 
+    height: 100%; 
+    background-color: #ffffff; 
+}
+
+.columnas {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    width: 100%;
+    gap: 20%;
+}
+
+.columna {
+}
+
+.columna-1 {
+    margin-top: 40px;
+}
+
+.columna h3 {
+    margin-bottom: 10px;
+}
+
+.columna ul {
+    list-style: none;
+    padding: 0;
+}
+
+.columna ul li {
+    margin-bottom: 5px;
+}
+
+.columna ul li a {
+    text-decoration: none;
+    color: #333;
+}
+/* Estilos generales */
+
+/* Ajustes para pantallas pequeñas */
+
+
+@media only screen and (max-width: 450px) {
+    
+.menu-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 100%;
+}
+
+
+.contenedor {
+    width: 60%;
+    height: auto;
+    background-color: #3a3a3a;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.9); 
+    padding: 0px;
+    margin-left: 0px;
+
+}
+
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    text-align: center;
+    color: white;
+}
+
+.header__title {
+    margin: 0;
+    color: #b68e76;
+    font-size: 70px;
+    margin-top: 60px;
+    font-family: 'MyFont_1';
+    font-weight: bold;
+}
+
+.menu {
+    display: none;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+
+/* seccion --- 1  */
+
+
+.seccion_uno{
+    height: auto;
+    width: auto;
+}
+
+.contenedor-seccion {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: auto;
+    height: auto;
+    background: url('imagen_fondo1.png') center/cover;
+
+}
+
+
+.seccion__contenido {
+    text-align:start; 
+}
+
+.seccion__texto-boton {
+    margin-bottom: 20px; 
+    margin-right: 20px;
+}
+
+.seccion__texto {
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-family: 'MyFont_1';
+}
+
+.seccion__boton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #b68e76;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    width: 250px;
+    cursor: pointer !important; 
+    font-weight: bold;
+    font-family: 'MyFont_1';
+}
+
+
+/* seccion 2 */
+
+
+.seccion_dos{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    margin-top: 40px;
+    display: flex;
+    border-radius: 150px;
+    width: 80%;
+    height: auto;
+    background-color: #ffffff;
+    box-shadow: -10px 0px 20px rgba(0, 0, 0, 0.2);
+
+}
+
+
+.card__imagen {
+    display: none;
+    width: 50%;
+    height: 100%;
+    box-shadow: -10px 0px 20px rgba(0, 0, 0, 0.2);
+    margin-left: 100px;
+}
+
+.card__contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 5%;
+    padding: 20px;
+}
+
+.card__titulo {
+    font-size: 24px;
+    margin-top: 90px;
+    font-family: 'MyFont_1';
+    font-size: 35px;
+}
+
+.card__texto_1 {
+    margin: 10px 0;
+    line-height: 1.5;
+    font-family: 'MyFont_1';
+    font-size: 28px;
+}
+
+.card__texto_2 {
+    margin: 10px 0;
+    margin-top: 50px;
+    line-height: 1.5;
+    font-family: 'MyFont_1';
+    font-size: 28px;
+    color: #b68e76;
+}
+
+.card__texto {
+    margin: 10px 0;
+    line-height: 1.5;
+    font-family: 'MyFont_1';
+    font-size: 12px;
+
+}
+
+.card__informacion-adicional {
+    margin-top: 40px;
+    font-family: 'MyFont_1';
+    font-size: 12px;
+}
+
+.seccion__boton_1 {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #b68e76;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    width: 150px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'MyFont_1';
+}
+
+.texto-debajo-container {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    margin-top: 20px; 
+}
+
+.texto-debajo {
+    display: flex;
+    font-family: 'MyFont_1';
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+}
+
+.texto-debajo::before {
+    content: '';
+    width: 2px; 
+    height: 20px; 
+    background-color: black; 
+    margin-right: 50px; 
+}
+/* --seccion-3 */
+
+
+.seccion_tres {
+    display: flex;
+    background: url('fondo-3.png')center/cover; 
+    height: auto;
+    width: 100%;
+}
+
+
+.contenido-seccion-3 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: black;
+    font-family: 'MyFont_1'; 
+    height: auto;
+    width: 100%;
+    
+}
+
+.titulo-seccion-3 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.texto-seccion-3 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px; 
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario input {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 289px;
+    border: none;
+    border-radius: 100px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    font-family: 'MyFont_1';
+}
+
+.formulario button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #b68e76;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    width: 300px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'MyFont_1';
+}
+
+.texto-despues-formulario {
+    margin-left: 100px;
+    font-size: 12px;
+    margin-top: 20px; 
+}
+
+
+
+/* seccion 4 */
+.seccion-cuatro {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* O ajusta la altura según tus necesidades */
+}
+
+.contenedor-seccion-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: 'MyFont_1';
+    margin-top: 5%;
+    width: 65%;
+    height: auto;
+}
+
+.card_1 {
+    display: flex;
+    border-radius: 180px;
+    width: 100%;
+    height: auto;
+    background-color: #3a3a3a;
+}
+
+.card__contenido_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Ajusta el relleno según tus necesidades */
+}
+
+.card__titulo_3 {
+    font-size: 60px;
+    margin: 0px;
+}
+
+.card__texto_7,
+.card__texto_4,
+.card__texto_6 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center; /* Alineado al centro */
+}
+
+.card__texto_5 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%; /* Cambiado a 100% para ocupar todo el ancho del contenedor */
+    background-color: #b68e76;
+    box-sizing: border-box;
+}
+
+.texto-debajo-container_1 {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: 20px;
+    color: black;
+}
+
+.texto-debajo-card {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    font-family: 'MyFont_1';
+    font-size: 16px;
+    text-align: start;
+    margin-left: 0; /* Ajusta el margen según tus necesidades */
+}
+
+
+.seccion-siete{
+    display: none;
+    width: 100%;
+    height: auto;
+    background-color: aqua;
+    
+    }
+
+
+
+    .botones{
+        display:none
+    }
+
+/* ----seccion 5 */
+    
+.seccion-quinta {
+    display: flex;
+    flex-direction: row;
+    background: url('fondo-5.png') center/cover; 
+    color: black;
+    height: auto;
+    width: 100%;
+    font-family: 'MyFont_1';
+}
+
+.contenedor-seccion-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: start;
+    width: 100%;
+    height: auto;
+}
+
+.texto-fondo {
+    text-align: center;
+    margin-left: 0%;
+    margin-top: 5%;
+}
+
+.titulo-fondo {
+    font-size: 10%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.texto--1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.texto--2 {
+    margin-top: 50px;
+    font-size: 20px;
+    color: #020202;
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;  
+    margin-left: 600px;
+}
+
+.boton-1,
+.boton-2 {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #b68e76;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    width: 170px;
+    cursor: pointer;
+    margin: 10px 0;
+    font-weight: bold;
+    font-family: 'MyFont_1';
+}
+
+
+
+/* ----seccion---6 */
+
+
+.seccion-sexta  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto; 
+    width: 100%;
+    font-family: 'MyFont_1';
+    margin-top: 5%;
+}
+
+
+.contenedor-seccion_5 {
+    display: flex;
+    width: 70%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__imagen_2 {
+    display: none;
+    width: auto;
+    
+}
+
+.card_2 {
+    display: flex;
+    border-radius: 150px;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #ffffff;
+    position: relative;
+    box-shadow: -10px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card__contenido_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    width: 50%;
+    margin-left: 0px;
+}
+
+.card__tituloo {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.card__texto__1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.card__textoo {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.seccion__boton_1 {
+    padding: 10px 20px;
+    font-size: 25px;
+    background-color: #b68e76;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    width: auto;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.card__informacion-adicional-1 {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.texto-debajo-container_2 {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    margin-top: 20px; 
+}
+
+.texto-debajo-2 {
+    display: flex;
+    font-family: 'MyFont_1';
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+}
+
+.texto-debajo-2::before {
+    content: '';
+    position: absolute;
+    left: -70px; 
+    top: 0;
+    width: 2px; 
+    height: 100%; 
+    background-color: black;
+}
+
+
+
+
+.seccion-7 {
+    position: relative;
+    text-align: center;
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+}
+
+.seccion-7::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('Design-8.png');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: top right;
+    z-index: -1;
+}
+
+.contenedor-seccion_7 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor-seccion_7 h2 {
+    font-size: 10%;
+    margin-bottom: 10px;
+    font-family: 'MyFont_1';
+}
+
+.contenedor-seccion_7 p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 60px;
+}
+
+.contenedor-seccion_7  .parrafo-1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.contenedor-seccion_7 button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3a3a3a;
+    border-radius: 100px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    margin-bottom: 10px;
+    margin-top: 60px;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    font-family: 'MyFont_1';
+    width: 80%;
+    margin: 0 auto; /* Centrar horizontalmente */
+    height: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+}
+
+.h22 {
+    text-align: center;
+    font-size: 200%;
+    color: #b68e76;
+    margin-bottom: 5%;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.subtitulo-container {
+    align-items: center;
+    text-align: center;
+}
+
+.subtitulo {
+    display:none;
+    text-align: center;
+    font-size: 20px;
+    margin-top: -50px;
+    position: relative;
+}
+
+.subtitulo::before {
+    content: '';
+    position: absolute;
+    left: 50%; /* Ajustado para centrar */
+    transform: translateX(-50%); /* Centrar el elemento generado */
+    top: 0;
+    width: 2px; 
+    height: 100%; 
+    background-color: #ffffff; 
+}
+
+.columnas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+    gap: 0%;
+}
+
+.columna {
+}
+
+.columna-1 {
+    margin-top: 40px;
+}
+
+.columna h3 {
+    margin-bottom: 10px;
+}
+
+.columna ul {
+    list-style: none;
+    padding: 0;
+}
+
+.columna ul li {
+    margin-bottom: 5px;
+}
+
+.columna ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+
+}
